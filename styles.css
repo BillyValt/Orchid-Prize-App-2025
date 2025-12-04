@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  /* overflow: hidden;  */
+  overflow: hidden; 
   /* background: linear-gradient(0deg, #ee82ee, black 88%); */
   background: linear-gradient(7deg, #e9e9e9 30%, rgb(255, 0, 102) 60%, rgb(18, 12, 45) 90%);
   
