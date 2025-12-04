@@ -16,7 +16,7 @@ export default function runXmasLights() {
 
     // случайная позиция
     light.style.left = Math.random() * 80 + "vw";
-    light.style.top = Math.random() * 20 + "vh";
+    light.style.top = Math.random() * 90 + "vh";
 
     // случайная задержка анимации (чтобы не мигали одновременно)
     light.style.animationDelay = (Math.random() * 2) + "s";
