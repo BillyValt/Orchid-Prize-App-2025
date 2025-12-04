@@ -15,7 +15,7 @@ export default function runXmasLights() {
     light.style.background = colors[Math.floor(Math.random() * colors.length)];
 
     // случайная позиция
-    light.style.left = Math.random() * 95 + "vw";
+    light.style.left = Math.random() * 80 + "vw";
     light.style.top = Math.random() * 95 + "vh";
 
     // случайная задержка анимации (чтобы не мигали одновременно)
