@@ -1,6 +1,6 @@
 export default function runXmasLights() {
   const colors = ["#ff3333", "#33ff55", "#33aaff", "#ffdd33", "#ff77ff"];
-  const lightsCount = 90; // количество огоньков
+  const lightsCount = 30; // количество огоньков
 
   for (let i = 0; i < lightsCount; i++) {
     const light = document.createElement("div");
@@ -16,7 +16,7 @@ export default function runXmasLights() {
 
     // случайная позиция
     light.style.left = Math.random() * 80 + "vw";
-    light.style.top = Math.random() * 95 + "vh";
+    light.style.top = Math.random() * 20 + "vh";
 
     // случайная задержка анимации (чтобы не мигали одновременно)
     light.style.animationDelay = (Math.random() * 2) + "s";
