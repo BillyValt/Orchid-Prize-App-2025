@@ -9,11 +9,11 @@ body {
   border-radius: 50%;
   opacity: 0.8;
   filter: blur(12px);
-  animation: shimmer 5s infinite ease-in-out;
+  /* animation: shimmer 5s infinite ease-in-out; */
 }
 
-@keyframes shimmer {
+/* @keyframes shimmer {
   0% { opacity: 0.1; transform: scale(1); }
   50% { opacity: 0.7;   transform: scale(1.2); }
   100% { opacity: 0.1; transform: scale(1); }
-}
+} */
