@@ -5,8 +5,6 @@ import runXmasLights from './xmas_lights.js';
 
 // runSnowflakes();
 // createStars();
-runXmasLights();
-
 
 const startButton = document.querySelector('.js-start__btn');
 const resetButton = document.querySelector('.js-reset__btn');
