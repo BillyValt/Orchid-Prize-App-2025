@@ -193,14 +193,14 @@ body {
 }
 
 .winner__container__animation {
-  animation: anime2 0.5s ease-in-out;
-  animation-iteration-count: 5;
+  animation: anime2 0.8s ease-in-out;
+  animation-iteration-count: 8;
 }
 
 @keyframes anime2 {
   0% {
     /* background-color: rgb(170, 255, 0); */
-    background: linear-gradient(rgba(170, 255, 0, 0.342), rgb(170, 255, 0), rgba(170, 255, 0, 0.342));
+    background: linear-gradient(rgba(162, 255, 0, 0.451), rgba(162, 255, 0, 0.218), rgba(162, 255, 0, 0.451));
     /* box-shadow: 0px 0px 20px 14px rgb(255, 255, 255); */
   }
 
