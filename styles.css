@@ -147,7 +147,7 @@ body {
   height: 77px;
   font-size: 26px;
   font-family: Pixelify Sans;
-  background-color: rgb(247, 247, 247, 0.75);
+  background-color: rgb(247, 247, 247);
   border-radius: 18px;
   box-sizing: border-box;
   margin-bottom: 12px;
@@ -277,7 +277,7 @@ body {
   position: relative;
   width: clamp(360px, 50vw, 500px);
   /* background-color: white; */
-  background-color: rgb(247, 247, 247, 0.75);
+  background-color: rgb(247, 247, 247);
   height: 230px;
   /* box-shadow: inset 0px 0px 40px rgba(0, 0, 0, 0.7); */
   border-radius: 18px;
