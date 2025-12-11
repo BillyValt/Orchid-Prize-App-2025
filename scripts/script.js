@@ -35,7 +35,7 @@ function pickWinner() {
     </div>
   `;
 
-  winnerContainerEl.style.backgroundColor = 'rgb(247, 247, 247)';
+  winnerContainerEl.style.backgroundColor = 'background-color: rgba(251, 219, 219, 0.367);';
 
   intervalId1 = setInterval(() => {
     const randomPerson2 = Math.floor(Math.random() * personTotalNumber);;
@@ -115,7 +115,7 @@ function pickPrize() {
       resultEl.innerHTML = ` 
       <div class="winner__incription">Подарок:</div>
         <div class="container__element">
-        <img class="container__img" id="img-id-0" src="images/randomPrize14.png">
+        <img class="container__img" id="img-id-0" src="images/randomPrize15.png">
       </div>
      `;
     }
@@ -145,7 +145,7 @@ function resetPrize() {
       <img class="container__img js-prize-animation-disappearing" id="img-id-0" src="images/mystery__box1.png">
     </div>
   `;
-  winnerContainerEl.style.backgroundColor = 'rgb(247, 247, 247)';
+  winnerContainerEl.style.backgroundColor = 'rgba(255, 255, 255, 0.249);';
 
   const copyResultImage = document.querySelector('.container__img');
   copyResultImage.classList.add('prize-animation');
