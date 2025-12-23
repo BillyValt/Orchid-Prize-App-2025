@@ -136,7 +136,7 @@ function pickPrize() {
 resultImage.classList.add('prize-animation');
 
 function resetPrize() {
-  winnerNameEl.innerHTML = '<span class="name-stars1">&#x2581; &#x2581; &#x2581; &#x2581; &#160; &#x2581; &#x2581; &#x2581; &#x2581;</span>';
+  winnerNameEl.innerHTML = '<span class="name-stars1">&#10052; &#10052; &#10052; &#10052; &#160; &#10052; &#10052; &#10052; &#10052;</span>';
 
   resultEl.innerHTML =
     `
